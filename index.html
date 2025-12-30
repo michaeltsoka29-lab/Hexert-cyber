@@ -2,37 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home - My Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexert – Leadership</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html" class="active">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-        <a href="leadership.html">Leadership</a>
-        <a href="contact.html">Contact</a>
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">HEXERT</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="index.html#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="index.html#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="leadership.html" class="nav-link active">Leadership</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
     </nav>
 
-    <section>
-        <h1>Welcome to Our Website</h1>
-        <p>This is the Home page. Add your main content here.</p>
+    <!-- ===== LEADERSHIP HERO ===== -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Leadership at Hexert</h1>
+            <p>Celebrating vision, intelligence, and faith-driven guidance that inspire our team and clients alike.</p>
+        </div>
     </section>
 
-    <section id="honoring-lesley">
-        <h2>Honoring Lesley Tsoka</h2>
-        <p>We proudly recognize the exceptional leadership and intelligence of <strong>Lesley Tsoka</strong>. His vision, wisdom, and dedication have profoundly inspired those around him, setting a standard of excellence and integrity in all endeavors. Through his guidance, innovation, and steadfast commitment, Lesley continues to make a meaningful impact on our community and beyond.</p>
-        <p>We also give thanks and praise to <strong>God</strong>, the source of all wisdom and understanding. It is through His divine guidance and blessings that leaders like Lesley are empowered to serve with insight, compassion, and purpose. May we continue to honor God in our actions and celebrate those who lead with both excellence and faith.</p>
+    <!-- ===== HONORING LESLEY TSOKA ===== -->
+    <section class="about" id="honoring-lesley">
+        <div class="about-content">
+            <h2>Honoring Lesley Tsoka</h2>
+            <p>We proudly recognize the exceptional leadership and intelligence of <strong>Lesley Tsoka</strong>. His vision, wisdom, and dedication have profoundly inspired those around him, setting a standard of excellence and integrity in all endeavors. Through his guidance, innovation, and steadfast commitment, Lesley continues to make a meaningful impact on our community and beyond.</p>
+            <p>We also give thanks and praise to <strong>God</strong>, the source of all wisdom and understanding. It is through His divine guidance and blessings that leaders like Lesley are empowered to serve with insight, compassion, and purpose. May we continue to honor God in our actions and celebrate those who lead with both excellence and faith.</p>
+        </div>
     </section>
 
-    <div class="social-icons">
-        <a href="https://github.com" target="_blank"><img src="images/github.png" alt="GitHub"></a>
-        <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+    <!-- ===== SOCIAL ICONS ===== -->
+    <div class="social">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
     </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <p>&copy; 2023 Hexert Cybersecurity. All rights reserved.</p>
+        <p>Made with <i class="fas fa-lock"></i> for a safer internet.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
-
-
-
